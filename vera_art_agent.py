@@ -10,12 +10,11 @@ Original file is located at
 # ---------------------------
 # Cell 1 — install dependencies
 # ---------------------------
-!pip install pytrends pandas openpyxl requests xlrd
+#!pip install pytrends pandas openpyxl requests xlrd
 
 # ---------------------------
 # Cell 2 — imports & utils
 # ---------------------------
-import time
 import requests
 import pandas as pd
 from pytrends.request import TrendReq
